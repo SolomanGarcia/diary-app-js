@@ -8,6 +8,7 @@ function addEntryToDom(event) {
   entryDiv.className = "single-entry";
   entryDiv.innerText = entryTextbox[0].value;
   entriesSection.appendChild(entryDiv);
+  entryTextbox[0].value = "";
 }
 
 entryForm.addEventListener("submit", addEntryToDom);
