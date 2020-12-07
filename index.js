@@ -18,6 +18,11 @@ function addEntryToDom(event) {
   displayEntryButton.className = "display-entry-button";
   displayEntryButton.innerText = count;
   entriesNav.appendChild(displayEntryButton);
+
+  displayEntryButton.addEventListener("click", function () {
+    entryDiv.style.display = "block";
+  });
+
   count++;
 }
 
