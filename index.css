@@ -30,4 +30,16 @@ html, body {
   border-radius: 25px;
   padding: 5px 16px;
   margin-left: 76%;
+  cursor: pointer;
+}
+
+#entries {
+  background: #16697A;
+  color: #EDE7E3;
+  font-family: cursive;
+  padding: 2em;
+  max-width: 20em;
+  border: unset;
+  border-radius: 25px;
+  margin-top: 1em;
 }
